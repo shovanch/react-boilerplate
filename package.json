@@ -1,29 +1,28 @@
 {
   "name": "react-boilerplate",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "2.1.5"
   },
   "devDependencies": {
-    "eslint": "^5.6.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
     "node-sass": "^4.11.0",
-    "prettier": "^1.15.3",
-    "stylelint": "^9.9.0",
+    "prettier": "^1.16.4",
+    "stylelint": "^9.10.1",
     "stylelint-config-idiomatic-order": "^6.2.0",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-scss": "^3.4.1"
+    "stylelint-scss": "^3.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
