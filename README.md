@@ -4,3 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   ## Absolute imports available
   the base is **'src'** <br>
   That means all the imports can start from **'src/....' now**
+
+  ## Styles
+  Globally applicable styles like body, base ; variables, and fonts are availble through ```index.scss```  on styles folder.
+  With each components having its own styles.
