@@ -16,7 +16,7 @@
     "prettier/prettier": [
       "error",
       {
-        "singleQuote": true
+        "singleQuote": false
       }
     ]
   },
