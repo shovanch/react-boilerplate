@@ -1,4 +1,3 @@
-/* GLOBALLY APPLICABLE STYLES */
-@import "fonts";
-@import "variables";
-@import "base";
+@import "./common/fonts";
+@import "./common/variables";
+@import "./common/base";
