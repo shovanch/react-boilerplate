@@ -14,9 +14,12 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "cra-start": "react-scripts start",
+    "cra-build": "react-scripts build",
+    "cra-test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "browserslist": {
@@ -32,6 +35,8 @@
     ]
   },
   "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "customize-cra-react-refresh": "^1.1.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.21.2",
@@ -42,6 +47,7 @@
     "husky": "^4.2.5",
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
+    "react-app-rewired": "^2.1.6",
     "stylelint": "^13.6.1",
     "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-prettier": "^8.0.2",
